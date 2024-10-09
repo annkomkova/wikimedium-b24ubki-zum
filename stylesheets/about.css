@@ -54,3 +54,31 @@ body.about {
 .fourth-section p {
   text-align: center;
 }
+.fourth-section a {
+  color: grey;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 18px 24px;
+  transition: 0.8s;
+}
+.fourth-section a.black-button {
+  color: white;
+  background-color: #505050;
+  border: 1px solid #505050;
+  padding: 18px 30px;
+}
+.fourth-section a:hover {
+  background-color: #eee;
+  transition: 0.2s;
+}
+.fourth-section a.black-button:hover {
+  background-color: black;
+}
+section.fourth-section div {
+  margin-top: 60px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
